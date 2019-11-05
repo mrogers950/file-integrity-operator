@@ -1,0 +1,7 @@
+apiVersion: file-integrity.openshift.io/v1alpha1
+kind: FileIntegrity
+metadata:
+  name: example-fileintegrity
+  namespace: openshift-file-integrity
+spec:
+  config: {}
